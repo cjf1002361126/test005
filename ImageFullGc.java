@@ -5,6 +5,8 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class ImageFullGc {
+	
+	private static final Logger logger = Facotry.getLogger(ImageFullGc.class);
 
 	public static Image getImage(String path) { 
 	    Image img = icon.getImage(); 

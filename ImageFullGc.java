@@ -8,7 +8,7 @@ public class ImageFullGc {
 
 	public static Image getImage(String path) { 
 	    ImageIcon icon = new ImageIcon(path); 
-	    Image img = icon.getImage(); 
+		System.out.println("我来修改");
 	    return img; 
 	}
 	
